@@ -1,4 +1,4 @@
-# 📰 News Website Project
+# 📰 Akhbar Website Project
 
 A dynamic and responsive news portal built using **PHP**, **HTML**, **CSS**, and **JavaScript**. This web application allows users to read news across categories, while admins can manage posts, users, and media content through a dedicated dashboard.
 
