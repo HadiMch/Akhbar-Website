@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sign up Page</title>
+</head>
+<body>
+
+<section class="form-section">
+    <div class="container form-section-container">
+        <h2 style="text-align: center;">Sign Up</h2>
+  <!-- <div class="alert-message error"><p>$_SESSION['signup'];unset($_SESSION['signup']);</p></div> -->
+        <form action="" enctype="multipart/form-data" method="post">
+            <input type="text" name="firstname" value="" placeholder="First Name">
+            <input type="text" name="lastname" value="" placeholder="Last Name">
+            <input type="text" name="username" value="" placeholder="Username">
+            <input type="email" name="email" value="" placeholder="Email">
+            <input type="password" name="createpassword" value="" placeholder="Create Password">
+            <input type="password" name="confirmpassword" value="" placeholder="Confirm Password">
+            <div class="form-control">
+                <label for="avatar">User Avatar</label>
+                <input type="file" name="avatar" id="avatar">
+            </div>
+            <button type="submit" name="submit" class="btn" style="align-self: center;">Sign Up</button>
+            <small>Already have an account? <a href="signin.php">Sign In</a></small>
+        </form>
+    </div>
+</section>
+
+</body>
+
+</html>
